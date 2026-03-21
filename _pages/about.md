@@ -30,7 +30,7 @@ I am Xingyi (Daniel) Chen, a rising Senior at Johns Hopkins University studying 
 
 My research interests are in statistical genomics and biomedical data science, with a focus on applying statistics and machine learning to problems in medicine and healthcare. I am currently a research assistant in the Hicks Lab, where I develop computational methods and reproducible pipelines for spatial transcriptomics and RNA-seq analysis. My recent work includes building Visium HD analysis workflows, porting SpotSweeper from R to Python, developing isoform-level models for biological age prediction, and maintaining the Python package `visiumhd-utils`.
 
-Previously, I worked in the Beer Lab at Johns Hopkins on exploratory analysis and visualization of gene expression data, and completed a bioinformatics internship in the Wei Lab, where I supported spatial-omics projects and presented literature reviews on machine learning applications in genomics. :contentReference[oaicite:2]{index=2}
+Previously, I worked in the Beer Lab at Johns Hopkins on exploratory analysis and visualization of gene expression data, and completed a bioinformatics internship in the Wei Lab, where I supported spatial-omics projects and presented literature reviews on machine learning applications in genomics.
 
 You can find my resume, GitHub, and LinkedIn through the links below.
 
