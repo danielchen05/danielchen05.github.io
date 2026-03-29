@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate at Johns Hopkins University studying Applied Mathematics & Statistics and Computational Medicine
+subtitle: Undergraduate at <a href='#'>Johns Hopkins University</a>
 
 profile:
   align: right
