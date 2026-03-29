@@ -967,7 +967,7 @@ related_posts: false
 ---
 ```
 
-### Additional configuration in \_config.yml
+### Additional configuration in _config.yml
 
 You can also customize related posts behavior with these settings:
 
