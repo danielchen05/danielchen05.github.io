@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - danielchen05
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - danielchen05/spotsweeper_py
+  - danielchen05/scRNA-cross-donor-generalization
+  - danielchen05/SpotSweeper_py_paper
+  - danielchen05/visiumhd-utils
+  - danielchen05/hicks-lab-personal
