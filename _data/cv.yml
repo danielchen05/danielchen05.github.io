@@ -1,13 +1,13 @@
 cv:
   name: Xingyi (Daniel) Chen
-  label: Undergraduate Researcher
+  label: Computational Genomics Researcher
   email: xchen274@jh.edu
   location: Baltimore, MD
   image: ""
   summary: Undergraduate at Johns Hopkins University studying Applied Mathematics and Statistics, interested in statistical genomics, computational biology, and biomedical data science.
 
   social_networks:
-    - network: Github
+    - network: GitHub
       username: danielchen05
     - network: LinkedIn
       username: danielchen-jhu
@@ -32,12 +32,12 @@ cv:
         end_date: 2027
         score: "GPA: 3.99"
         courses: 
-        - Computational Genomics: Data Analysis
-        - Genomic Data Visualization
-        - Real Analysis I/II
-        - Monte Carlo Methods
-        - Optimization
-        - Systems Pharmacology
+          - "Computational Genomics: Data Analysis"
+          - Genomic Data Visualization
+          - Real Analysis I/II
+          - Monte Carlo Methods
+          - Optimization
+          - Systems Pharmacology
         highlights:
           - Minor in Computational Medicine, Mathematics
           - Dean's List Recipient (6 semesters)
@@ -108,7 +108,7 @@ cv:
           - Earned a 98% average student evaluation rating.
 
     Awards:
-       - title: Dean's List
+      - title: Dean's List
         awarder: Johns Hopkins University
         date: 2023-2026
         summary: Awarded for academic excellence across six semesters.
@@ -149,35 +149,35 @@ cv:
         summary: Poster presentation describing isoform-level machine learning models for human brain aging using bulk RNA-seq.
 
     Skills:
-    - name: Programming
-      keywords:
-        - Python
-        - R
-        - SQL
-        - C/C++
-        - Java
-  
-    - name: Libraries & Tools
-      keywords:
-        - Scanpy
-        - AnnData
-        - pandas
-        - numpy
-        - scikit-learn
-        - ggplot2
-        - tidyverse
-        - Git/GitHub
-        - Unix
-        - LaTeX
-  
-    - name: Research Areas
-      keywords:
-        - Statistical Genomics
-        - Computational Biology
-        - Machine Learning
-        - Spatial Transcriptomics
-        - scRNA-seq
-        - Biomedical Data Science
+      - name: Programming
+        keywords:
+          - Python
+          - R
+          - SQL
+          - C/C++
+          - Java
+    
+      - name: Libraries & Tools
+        keywords:
+          - Scanpy
+          - AnnData
+          - pandas
+          - numpy
+          - scikit-learn
+          - ggplot2
+          - tidyverse
+          - Git/GitHub
+          - Unix
+          - LaTeX
+    
+      - name: Research Areas
+        keywords:
+          - Statistical Genomics
+          - Computational Biology
+          - Machine Learning
+          - Spatial Transcriptomics
+          - scRNA-seq
+          - Biomedical Data Science
   
     Languages:
       - name: Mandarin
@@ -217,24 +217,24 @@ cv:
         #icon: fa-solid fa-envelope
 
     Projects:
-    - name: Random Cell-Level Splits Introduce Systematic Bias in scRNA-seq Cell Type Annotation
-      summary: >
-        Benchmarked scRNA-seq cell type annotation under random cell-level and donor-held-out evaluation schemes using healthy PBMC data, demonstrating systematic performance inflation caused by donor-level leakage.
-      highlights:
-        - Compared HVG, PCA, Harmony, and scVI representations using logistic regression classifiers.
-        - Evaluated macro F1, per-class F1, confusion matrices, and cross-site transfer performance.
-        - Built a fully reproducible research package with modular Python workflows and archived Zenodo release.
-      start_date: 2026-03
-      end_date: 2026-04
-  
-    - name: BRCA-Mutant Breast Cancer scRNA-seq Analysis
-      summary: >
-        Led differential expression analysis for BRCA-mutant breast cancer single-cell RNA-seq data using custom hierarchical sample trees.
-      highlights:
-        - Applied dual statistical testing with FDR correction and fold-change analysis.
-        - Generated publication-ready volcano plots and identified candidate driver genes.
-      start_date: 2025-01
-      end_date: 2025-05
+      - name: Random Cell-Level Splits Introduce Systematic Bias in scRNA-seq Cell Type Annotation
+        summary: >
+          Benchmarked scRNA-seq cell type annotation under random cell-level and donor-held-out evaluation schemes using healthy PBMC data, demonstrating systematic performance inflation caused by donor-level leakage.
+        highlights:
+          - Compared HVG, PCA, Harmony, and scVI representations using logistic regression classifiers.
+          - Evaluated macro F1, per-class F1, confusion matrices, and cross-site transfer performance.
+          - Built a fully reproducible research package with modular Python workflows and archived Zenodo release.
+        start_date: 2026-03
+        end_date: 2026-04
+    
+      - name: BRCA-Mutant Breast Cancer scRNA-seq Analysis
+        summary: >
+          Led differential expression analysis for BRCA-mutant breast cancer single-cell RNA-seq data using custom hierarchical sample trees.
+        highlights:
+          - Applied dual statistical testing with FDR correction and fold-change analysis.
+          - Generated publication-ready volcano plots and identified candidate driver genes.
+        start_date: 2025-01
+        end_date: 2025-05
 
     #References:
       #- name: Professor John Doe
