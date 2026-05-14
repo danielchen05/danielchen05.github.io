@@ -38,7 +38,7 @@ cv:
           - Monte Carlo Methods
           - Optimization
           - Systems Pharmacology
-        highlights:
+         highlights:
           - Minor in Computational Medicine, Mathematics
           - Dean's List Recipient (6 semesters)
 
@@ -107,11 +107,11 @@ cv:
           - Mentored undergraduate TAs and assisted with course logistics and student support.
           - Earned a 98% average student evaluation rating.
 
-    Awards:
-      - title: Dean's List
-        awarder: Johns Hopkins University
-        date: 2023-2026
-        summary: Awarded for academic excellence across six semesters.
+    #Awards:
+      #- title: Dean's List
+        #awarder: Johns Hopkins University
+        #date: 2023-2026
+        #summary: Awarded for academic excellence across six semesters.
       #- title: Nobel Prize in Physics
         #authors:
           #- "Royal Swedish Academy of Sciences"
