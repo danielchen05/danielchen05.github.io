@@ -31,14 +31,14 @@ cv:
         start_date: 2023
         end_date: 2027
         score: "GPA: 3.99"
-        courses: 
+        courses:
           - "Computational Genomics: Data Analysis"
           - Genomic Data Visualization
           - Real Analysis I/II
           - Monte Carlo Methods
           - Optimization
           - Systems Pharmacology
-         highlights:
+        highlights:
           - Minor in Computational Medicine, Mathematics
           - Dean's List Recipient (6 semesters)
 
