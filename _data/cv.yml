@@ -50,8 +50,8 @@ cv:
       - company: Johns Hopkins University, Department of Biostatistics
         position: Research Assistant — Hicks Lab
         location: Baltimore, MD
-        start_date: 2025-01
-        end_date: present
+        start_date: 2025
+        end_date: 2027
         summary: "PI: Dr. Stephanie Hicks"
         highlights:
           - Designed isoform-level machine learning models for human brain aging using bulk RNA-seq and identified tissue-agnostic and hippocampus-specific transcript usage markers.
@@ -62,8 +62,8 @@ cv:
       - company: Memorial Sloan Kettering Cancer Center
         position: QSURE Intern — Shah Lab
         location: New York, NY
-        start_date: 2026-06
-        end_date: 2026-08
+        start_date: 2026
+        end_date: 2026
         summary: "PI: Dr. Sohrab Shah | Mentors: Dr. Andrew McPherson, Matt Myers"
         highlights:
           - Research project on scDNA homozygous deletion analysis. 
@@ -71,8 +71,8 @@ cv:
       - company: Johns Hopkins University, Department of Biomedical Engineering
         position: Research Assistant — Beer Lab
         location: Baltimore, MD
-        start_date: 2023-11
-        end_date: 2025-01
+        start_date: 2023
+        end_date: 2025
         summary: "PI: Dr. Michael Beer"
         highlights:
           - Performed exploratory analysis and visualization for gene expression datasets using R.
@@ -81,8 +81,8 @@ cv:
       - company: Lin Gang Laboratory
         position: Bioinformatics Intern — Wei Lab
         location: Shanghai, China
-        start_date: 2024-06
-        end_date: 2024-08
+        start_date: 2024
+        end_date: 2024
         summary: "PI: Dr. Wu Wei"
         highlights:
           - Synthesized spatial-omics literature into internal presentations focused on ML and statistical applications.
@@ -92,8 +92,8 @@ cv:
       - company: Johns Hopkins University, Department of Mathematics
         position: Undergraduate Lead Teaching Assistant
         location: Baltimore, MD
-        start_date: 2024-08
-        end_date: present
+        start_date: 2024
+        end_date: 2027
         summary: "Supported courses: Differential Equations & Applications, Calculus III"
         highlights:
           - Promoted from Course Assistant to Lead TA and led weekly discussion sections for approximately 25 students.
@@ -218,8 +218,8 @@ cv:
           - Compared HVG, PCA, Harmony, and scVI representations using logistic regression classifiers.
           - Evaluated macro F1, per-class F1, confusion matrices, and cross-site transfer performance.
           - Built a fully reproducible research package with modular Python workflows and archived Zenodo release.
-        start_date: 2026-03
-        end_date: 2026-04
+        start_date: 2026
+        end_date: 2026
     
       - name: BRCA-Mutant Breast Cancer scRNA-seq Analysis
         summary: >
@@ -227,8 +227,8 @@ cv:
         highlights:
           - Applied dual statistical testing with FDR correction and fold-change analysis.
           - Generated publication-ready volcano plots and identified candidate driver genes.
-        start_date: 2025-01
-        end_date: 2025-05
+        start_date: 2025
+        end_date: 2025
 
     #References:
       #- name: Professor John Doe
