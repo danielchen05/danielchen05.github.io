@@ -3,7 +3,7 @@ cv:
   label: Computational Genomics Researcher
   email: xchen274@jh.edu
   location: Baltimore, MD
-  image: ""
+  # image: ""
   summary: Undergraduate at Johns Hopkins University studying Applied Mathematics and Statistics, interested in statistical genomics, computational biology, and biomedical data science.
 
   social_networks:
@@ -57,7 +57,7 @@ cv:
         position: Research Assistant — Hicks Lab
         location: Baltimore, MD
         start_date: 2025-01
-        end_date: Present
+        end_date: present
         summary: "PI: Dr. Stephanie Hicks"
         highlights:
           - Designed isoform-level machine learning models for human brain aging using bulk RNA-seq and identified tissue-agnostic and hippocampus-specific transcript usage markers.
@@ -99,7 +99,7 @@ cv:
         position: Undergraduate Lead Teaching Assistant
         location: Baltimore, MD
         start_date: 2024-08
-        end_date: Present
+        end_date: present
         summary: "Supported courses: Differential Equations & Applications, Calculus III"
         highlights:
           - Promoted from Course Assistant to Lead TA and led weekly discussion sections for approximately 25 students.
