@@ -1,10 +1,10 @@
 cv:
   name: Xingyi (Daniel) Chen
-  label: Computational Genomics Researcher
+  # label: Computational Genomics Researcher
   email: xchen274@jh.edu
   location: Baltimore, MD
   # image: ""
-  summary: Undergraduate at Johns Hopkins University studying Applied Mathematics and Statistics, interested in statistical genomics, computational biology, and biomedical data science.
+  # summary: Undergraduate at Johns Hopkins University studying Applied Mathematics and Statistics, interested in statistical genomics, computational biology, and biomedical data science.
 
   social_networks:
     - network: GitHub
