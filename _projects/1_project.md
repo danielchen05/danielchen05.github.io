@@ -5,7 +5,7 @@ description: Isoform-level machine learning analysis of human brain aging using 
 img: assets/img/isoform_aging_cover.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 This project investigates whether **isoform usage patterns** can serve as molecular markers of human brain aging. Using bulk RNA-seq datasets from human brain regions, I developed isoform-level machine learning workflows to identify both **tissue-agnostic** and **hippocampus-specific** transcript usage markers associated with age.
