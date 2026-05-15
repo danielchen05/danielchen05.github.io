@@ -46,9 +46,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-machine-learning-reveals-isoform-aging-markers-in-the-human-brain",
+          title: 'Machine Learning Reveals Isoform Aging Markers in the Human Brain',
+          description: "Isoform-level machine learning analysis of human brain aging using bulk RNA-seq",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
