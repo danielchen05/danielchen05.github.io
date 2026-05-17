@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Machine Learning Reveals Isoform Aging Markers in the Human Brain
+title: Isoform Markers of Brain Aging
 description: Isoform-level machine learning analysis of human brain aging using bulk RNA-seq
 img: assets/img/isoform_aging_cover.jpg
 importance: 1
@@ -97,10 +97,10 @@ Key steps included:
 
 ## Tools
 
-`Python` · `R` · `bulk RNA-seq` · `machine learning` · `elastic net regression` · `feature selection` · `transcriptomics`
+`Python` · `Jupyter` · `bulk RNA-seq` · `machine learning` · `elastic net regression` · `feature selection` · `transcriptomics`
 
 ---
 
 ## Status
 
-This project is ongoing as part of my research in the Hicks Lab.
+This project is ongoing as part of my research in the Hicks Lab. Preprint coming soon in Fall 2026.
