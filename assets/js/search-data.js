@@ -56,9 +56,9 @@ ninja.data = [{
           description: "Python implementation of spatially aware quality-control metrics for spatial omics data",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-bias-in-scrna-seq-annotation-benchmarks",
+          title: 'Bias in scRNA-seq Annotation Benchmarks',
+          description: "Donor-held-out evaluation reveals leakage from random cell-level splits",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
