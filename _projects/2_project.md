@@ -5,12 +5,14 @@ description: Python implementation of spatially aware quality-control metrics fo
 img: assets/img/spotsweeper_cover.jpg
 importance: 2
 category: work
-related_publications: chen2026spotsweeperpy
+related_publications: true
+github: https://github.com/danielchen05/spotsweeper_py
+github_stars: danielchen05/spotsweeper_py
 ---
 
 This project contributed to **SpotSweeper-py**, a Python implementation of spatially aware quality-control metrics for spatial omics data. The goal of the project was to bring SpotSweeper functionality from the R/Bioconductor ecosystem into the Python spatial omics ecosystem, making it easier to apply spatially informed quality control in modern Python workflows.
 
-This work was conducted in the Hicks Lab at Johns Hopkins University, Department of Biostatistics, and contributed to a published F1000Research software workflow.
+This work was conducted in the Hicks Lab at Johns Hopkins University, Department of Biostatistics, and contributed to a published F1000Research software workflow {% cite chen2026spotsweeperpy %}.
 
 ---
 
@@ -45,7 +47,7 @@ Key components included:
    Standard QC metrics can be summarized locally to identify spatially structured artifacts.
 
 3. **Python ecosystem integration**  
-   The implementation supports Python-based spatial omics workflows and is designed to work naturally with common data structures used in computational biology.
+   The implementation supports Python-based spatial omics workflows and is designed to work naturally with common data structures used in computational biology (AnnData).
 
 4. **Validation and reproducibility**  
    Outputs were compared against expected behavior to ensure that the Python version preserved the core functionality of the original SpotSweeper workflow.
@@ -58,21 +60,11 @@ Key components included:
   <div class="col-sm-6 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/spotsweeper_qc_map.png" title="Spatial QC map" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/spotsweeper_workflow.png" title="SpotSweeper-py workflow" class="img-fluid rounded z-depth-1" %}
-  </div>
 </div>
 
 <div class="caption">
-  Example spatial quality-control outputs and workflow summary for SpotSweeper-py.
+  Example spatial quality-control outputs for SpotSweeper-py, and comparison with global QC methods.
 </div>
-
----
-
-## Publication
-
-**Spotsweeper-py – spatially-aware quality control metrics for spatial omics data in the Python ecosystem**  
-Chen X, Totty M, Hicks SC. *F1000Research*. 2026.
 
 ---
 
@@ -84,4 +76,4 @@ Chen X, Totty M, Hicks SC. *F1000Research*. 2026.
 
 ## Status
 
-This project contributed to a published software workflow and supports spatially aware quality control in Python-based spatial omics analysis.
+This project contributed to a published software workflow and supports spatially aware quality control in Python-based spatial omics analysis. Manuscript accepted and published on F1000.
