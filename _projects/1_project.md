@@ -10,7 +10,7 @@ related_publications: false
 
 This project investigates whether **isoform usage patterns** can serve as molecular markers of human brain aging. Using bulk RNA-seq datasets from human brain regions, I developed isoform-level machine learning workflows to identify both **tissue-agnostic** and **hippocampus-specific** transcript usage markers associated with age.
 
-The project was conducted in the Hicks Lab at Johns Hopkins University, Department of Biostatistics, and was presented as a poster at **Biology of Genomes, Cold Spring Harbor Laboratory, 2026**.
+The project was conducted in the Hicks Lab at Johns Hopkins University, Department of Biostatistics, and was presented as a poster at **Biology of Genomes, Cold Spring Harbor Laboratory, 2026** ([Poster PDF](/assets/pdf/Chen_BoG_2026_poster.pdf)).
 
 ---
 
