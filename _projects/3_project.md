@@ -4,7 +4,7 @@ title: Bias in scRNA-seq Annotation Benchmarks
 description: Donor-held-out evaluation reveals leakage from random cell-level splits
 img: assets/img/scrna_benchmark_cover.jpg
 importance: 3
-category: work
+category: featured
 related_publications: false
 github: https://github.com/danielchen05/scRNA-cross-donor-generalization
 ---
