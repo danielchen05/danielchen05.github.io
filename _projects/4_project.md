@@ -1,80 +1,100 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Visium HD Spatial Transcriptomics Pipelines
+description: Reusable preprocessing, QC, destriping, and visualization workflows for Visium HD data
+img: assets/img/visiumhd_cover.jpg
+importance: 4
+category: work
+related_publications: false
+github: https://github.com/danielchen05/visiumhd_utils
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project developed reusable computational workflows for analyzing **Visium HD spatial transcriptomics** data. The goal was to support preprocessing, quality control, destriping, visualization, and publication-ready figure generation for high-resolution spatial omics datasets.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The work was conducted in the Hicks Lab at Johns Hopkins University, Department of Biostatistics, as part of ongoing spatial transcriptomics research and NIH R01 proposal development.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Overview
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Visium HD enables high-resolution spatial transcriptomic profiling, but the resulting datasets require careful preprocessing and visualization before downstream biological interpretation. Standard workflows often need to handle multiple spatial resolutions, quality-control summaries, image-aligned spatial plots, and technical artifacts that can vary across tissue sections.
+
+To make these analyses more reproducible, I developed a set of reusable Jupyter pipelines and utility functions for Visium HD data analysis. These workflows helped standardize common steps such as loading spatial data, extracting resolution-specific objects, calculating QC metrics, visualizing spatial patterns, and generating publication-ready figures.
+
+---
+
+## Key Features
+
+- Reusable workflows for Visium HD preprocessing and quality-control analysis.
+- Support for spatial visualization of QC metrics such as total counts, detected genes, and mitochondrial percentage.
+- Destriping and artifact-aware preprocessing workflows for high-resolution spatial data.
+- Utility functions organized into a pip-installable Python package.
+- Publication-ready figure generation for spatial transcriptomics research.
+
+---
+
+## My Contributions
+
+- Developed 10+ reusable Jupyter pipelines for Visium HD preprocessing, QC, destriping, visualization, and figure generation.
+- Built components of a pip-installable `visiumhd-utils` package to support repeated spatial transcriptomics analyses.
+- Implemented workflows for visualizing QC metrics across spatial coordinates and tissue regions.
+- Adapted analysis steps to work with modern Python spatial omics data structures.
+- Generated figures and analysis outputs supporting an NIH R01 grant proposal.
+
+---
+
+## Workflow Scope
+
+This project focused on building reusable analysis infrastructure rather than producing a single final biological figure. The workflows support repeated Visium HD analyses across datasets, including data loading, quality-control calculation, spatial visualization, destriping, and figure export.
+
+The goal was to make common Visium HD analysis steps easier to reproduce, adapt, and reuse in future spatial transcriptomics projects.
+
+---
+
+## Methods
+
+The project focused on creating modular workflows for high-resolution spatial transcriptomics analysis.
+
+Key steps included:
+
+1. **Data loading and organization**  
+   Visium HD outputs were loaded into Python-compatible spatial data structures for downstream analysis.
+
+2. **Resolution-specific extraction**  
+   Spatial transcriptomics data were organized across multiple bin sizes or spatial resolutions to support flexible analysis.
+
+3. **Quality-control calculation**  
+   QC metrics such as total counts, number of detected genes, and mitochondrial percentage were computed and visualized spatially.
+
+4. **Destriping and artifact handling**  
+   Workflows were developed to reduce spatial technical artifacts and improve interpretability of downstream plots.
+
+5. **Visualization and figure generation**  
+   Reusable plotting functions were created to generate clear, publication-ready spatial transcriptomics figures.
+
+---
+
+## Example Visualization
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/visiumhd_16um_histology_overlay.png" title="Visium HD histology overlay" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+  Example Visium HD spatial visualization showing gene expression overlaid on histology at 16µm resolution, illustrating how the workflow supports image-aligned expression mapping across tissue regions.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+## Tools
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+`Python` · `Jupyter` · `spatialdata` · `spatialdata-plot` · `AnnData` · `Scanpy` · `Visium HD` · `spatial transcriptomics` · `quality control` · `data visualization`
 
-{% endraw %}
+---
+
+## Status
+
+This project is a research infrastructure project in the Hicks Lab and supports reproducible spatial transcriptomics analysis workflows. Finished as of September 2025.  
+Github links: https://github.com/danielchen05/hicks-lab-personal, https://github.com/danielchen05/visiumhd_utils. 
