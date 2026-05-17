@@ -4,7 +4,7 @@ title: Isoform Markers of Brain Aging
 description: Isoform-level machine learning analysis of human brain aging using bulk RNA-seq
 img: assets/img/isoform_aging_cover.jpg
 importance: 1
-category: work
+category: featured
 related_publications: false
 ---
 
