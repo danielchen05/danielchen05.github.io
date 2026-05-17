@@ -7,7 +7,6 @@ importance: 2
 category: work
 related_publications: true
 github: https://github.com/danielchen05/spotsweeper_py
-github_stars: danielchen05/spotsweeper_py
 ---
 
 This project contributed to **SpotSweeper-py**, a Python implementation of spatially aware quality-control metrics for spatial omics data. The goal of the project was to bring SpotSweeper functionality from the R/Bioconductor ecosystem into the Python spatial omics ecosystem, making it easier to apply spatially informed quality control in modern Python workflows.
