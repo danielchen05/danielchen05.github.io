@@ -1,81 +1,87 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: SpotSweeper-py
+description: Python implementation of spatially aware quality-control metrics for spatial omics data
+img: assets/img/spotsweeper_cover.jpg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: chen2026spotsweeperpy
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project contributed to **SpotSweeper-py**, a Python implementation of spatially aware quality-control metrics for spatial omics data. The goal of the project was to bring SpotSweeper functionality from the R/Bioconductor ecosystem into the Python spatial omics ecosystem, making it easier to apply spatially informed quality control in modern Python workflows.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This work was conducted in the Hicks Lab at Johns Hopkins University, Department of Biostatistics, and contributed to a published F1000Research software workflow.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Overview
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Spatial omics technologies measure molecular profiles while preserving tissue location. However, quality-control artifacts in these datasets are often spatially structured: low-quality regions, edge effects, tissue damage, or local technical artifacts may affect nearby spots or cells together.
+
+Traditional quality-control metrics often treat observations independently. SpotSweeper-py addresses this by incorporating spatial neighborhood information into quality-control summaries, helping users identify spatially localized technical artifacts in spatial omics datasets.
+
+---
+
+## My Contributions
+
+- Ported SpotSweeper functionality from R/Bioconductor to Python.
+- Helped preserve spatially aware quality-control behavior in the Python implementation.
+- Worked with spatial omics data structures and Python analysis workflows.
+- Contributed to software development supporting a published F1000Research workflow.
+- Helped make spatially aware QC more accessible to users working in the Python ecosystem.
+
+---
+
+## Methods
+
+The project focused on implementing and validating spatially aware quality-control metrics for spatial omics datasets.
+
+Key components included:
+
+1. **Spatial neighborhood construction**  
+   Spots or cells are represented using spatial coordinates, allowing nearby observations to be grouped into local neighborhoods.
+
+2. **Quality-control metric calculation**  
+   Standard QC metrics can be summarized locally to identify spatially structured artifacts.
+
+3. **Python ecosystem integration**  
+   The implementation supports Python-based spatial omics workflows and is designed to work naturally with common data structures used in computational biology.
+
+4. **Validation and reproducibility**  
+   Outputs were compared against expected behavior to ensure that the Python version preserved the core functionality of the original SpotSweeper workflow.
+
+---
+
+## Selected Figures
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/spotsweeper_qc_map.png" title="Spatial QC map" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/spotsweeper_workflow.png" title="SpotSweeper-py workflow" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+  Example spatial quality-control outputs and workflow summary for SpotSweeper-py.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+## Publication
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+**Spotsweeper-py – spatially-aware quality control metrics for spatial omics data in the Python ecosystem**  
+Chen X, Totty M, Hicks SC. *F1000Research*. 2026.
 
-{% endraw %}
+---
+
+## Tools
+
+`Python` · `spatial omics` · `quality control` · `software development` · `AnnData` · `SpatialData` · `open-source tools`
+
+---
+
+## Status
+
+This project contributed to a published software workflow and supports spatially aware quality control in Python-based spatial omics analysis.
