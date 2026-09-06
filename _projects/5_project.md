@@ -7,7 +7,7 @@ importance: 2
 category: featured
 related_publications: false
 github: https://github.com/danielchen05/scDNA-homozygous-deletions
-------------------------------------------------------------------
+---
 
 This project developed statistical methods for detecting **focal homozygous deletions from low-coverage single-cell DNA sequencing data**. The central goal was to identify small genomic regions with unusually depleted sequencing signal by pooling evidence across cells, particularly in settings where conventional copy-number segmentation methods may miss short or heterogeneous events.
 
