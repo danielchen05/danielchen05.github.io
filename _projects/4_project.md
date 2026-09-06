@@ -3,7 +3,7 @@ layout: page
 title: Visium HD Spatial Transcriptomics Pipelines
 description: Reusable preprocessing, QC, destriping, and visualization workflows for Visium HD data
 img: assets/img/visiumhd_cover.jpg
-importance: 4
+importance: 5
 category: featured
 related_publications: false
 github: https://github.com/danielchen05/visiumhd_utils
