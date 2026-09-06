@@ -25,20 +25,20 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Xingyi (Daniel) Chen, a rising senior at Johns Hopkins University studying Applied Mathematics & Statistics, with minors in Computational Medicine and Mathematics.
+I am Xingyi (Daniel) Chen, a senior at Johns Hopkins University studying Applied Mathematics & Statistics, with minors in Computational Medicine and Mathematics.  
 
-My interests lie in biostatistics, statistical genomics, computational biology, and biomedical data science. I am especially interested in developing statistical and machine learning methods for high-dimensional biomedical data, with applications in single-cell genomics, spatial transcriptomics, RNA-seq, and translational problems in medicine and healthcare.
+My research interests lie in biostatistics, statistical genomics, and biomedical data science. I am especially interested in developing and evaluating statistical and machine-learning methods for high-dimensional genomic and biomedical data, with applications in single-cell genomics, transcriptomics, and spatial omics.  
 
-In Summer 2026, I will be a full-time [QSURE](https://www.mskcc.org/departments/epidemiology-biostatistics/educational-opportunities/quantitative-sciences-summer-undergraduate-research-experience-qsure) intern at Memorial Sloan Kettering Cancer Center in New York, working in the Shah Lab under the mentorship of [Dr. Andrew McPherson](https://www.mskcc.org/profile/andrew-mcpherson). My project focuses on developing computational methods to detect homozygous deletions from single-cell DNA sequencing data.
+I am currently a research assistant in the [Hicks Lab](https://www.stephaniehicks.com/) at the Johns Hopkins Department of Biostatistics, where I work on statistical methodology, computational genomics, and reproducible workflows. My recent work includes methods for identifying age-dependent isoform trajectories, spatially aware quality control for spatial omics, and reproducible analysis workflows for Visium HD data.  
 
-I am currently a research assistant in the [Hicks Lab](https://www.stephaniehicks.com/) at Johns Hopkins University, Department of Biostatistics, where I develop computational methods, software, and reproducible workflows for spatial transcriptomics and RNA-seq analysis. My recent work includes isoform-level models of human brain aging, Python software for spatially aware quality control, Visium HD preprocessing and visualization pipelines, and benchmarking gene panel selection methods for spatial transcriptomics.
+I also lead an independent research project with Dr. Alexis Battle on donor-aware evaluation of single-cell RNA-seq cell-type annotation, studying when random cell-level evaluation can overestimate cross-donor generalization.  
 
-Previously, I worked in the [Beer Lab](https://beerlab.org/index.php/Computational_Regulatory_Genomics) at Johns Hopkins Department of Biomedical Engineering on exploratory analysis and visualization of gene expression data, and I completed a bioinformatics internship in the Wei Lab in Shanghai, where I supported spatial-omics projects and presented literature reviews on machine learning applications in genomics.
+In Summer 2026, I was a [QSURE](https://www.mskcc.org/departments/epidemiology-biostatistics/educational-opportunities/quantitative-sciences-summer-undergraduate-research-experience-qsure) intern at Memorial Sloan Kettering Cancer Center in the Shah/McPherson Lab, where I developed statistical and computational methods for detecting homozygous deletions in low-coverage single-cell DNA sequencing data.  
 
-I also serve as an Undergraduate Lead Teaching Assistant in the Johns Hopkins Department of Mathematics, where I lead discussion sections, mentor undergraduate TAs, and support courses including Differential Equations and Calculus III.
+I also serve as an Undergraduate Lead Teaching Assistant for Differential Equations & Applications course in the Johns Hopkins Department of Mathematics.  
 
-I am broadly interested in pursuing PhD training at the intersection of biostatistics, statistical genomics, and computational biology.
+I plan to pursue PhD training in biostatistics, statistical genomics, or biomedical data science, with a focus on developing rigorous statistical methodology for genomic and biomedical applications.  
 
-Outside of research, I enjoy traveling, exploring new cafes, restaurants, and cities, and spending time with friends.
+Outside of research, I enjoy traveling, exploring new cafes, restaurants, and cities, and spending time with friends.  
 
 You can find my CV, Email, GitHub, Google Scholar, LinkedIn, and other links below.
