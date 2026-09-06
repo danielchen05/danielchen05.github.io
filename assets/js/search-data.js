@@ -59,9 +59,9 @@ ninja.data = [{
           description: "Reusable preprocessing, QC, destriping, and visualization workflows for Visium HD data",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
