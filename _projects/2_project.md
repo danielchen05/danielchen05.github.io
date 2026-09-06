@@ -3,7 +3,7 @@ layout: page
 title: SpotSweeper-py
 description: Python implementation of spatially aware quality-control metrics for spatial omics data
 img: assets/img/spotsweeper_cover.jpg
-importance: 2
+importance: 3
 category: featured
 related_publications: true
 github: https://github.com/danielchen05/spotsweeper_py
