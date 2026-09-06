@@ -59,7 +59,7 @@ Simulated homozygous deletions were introduced as localized reductions in expect
 
 Several changepoint and segmentation strategies were evaluated as candidate approaches for detecting focal deletions.
 
-Performance was assessed using metrics including **recall**, localization accuracy, and false-positive behavior across different deletion sizes and sequencing depths.
+Performance was assessed using metrics including precision, recall, localization accuracy, and false-positive behavior across different deletion sizes and sequencing depths.
 
 The benchmarking results showed that very short events, particularly those spanning only one or two genomic bins, posed a major challenge for general-purpose segmentation approaches.
 
