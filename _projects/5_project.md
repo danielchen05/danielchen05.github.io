@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Detecting Homozygous Deletions from Single-Cell DNA Sequencing Data
-description: Statistical methods for detecting focal homozygous deletions from low-coverage single-cell DNA sequencing data
+title: Identifying Homozygous Deletions from Single-Cell DNA Sequencing Data
+description: Developing and benchmarking a deletion-specific scan statistic for detecting focal homozygous deletions in sparse single-cell DNA sequencing data
 img: assets/img/qsure_cover.jpg
 importance: 2
 category: featured
