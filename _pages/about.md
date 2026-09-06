@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Xingyi (Daniel) Chen, a senior at Johns Hopkins University studying Applied Mathematics & Statistics, with minors in Computational Medicine and Mathematics.  
+I am Xingyi (Daniel) Chen, a Senior at Johns Hopkins University studying Applied Mathematics & Statistics, with minors in Computational Medicine and Mathematics.  
 
 My research interests lie in biostatistics, statistical genomics, and biomedical data science. I am especially interested in developing and evaluating statistical and machine-learning methods for high-dimensional genomic and biomedical data, with applications in single-cell genomics, transcriptomics, and spatial omics.  
 
@@ -35,7 +35,7 @@ I also lead an independent research project with Dr. Alexis Battle on donor-awar
 
 In Summer 2026, I was a [QSURE](https://www.mskcc.org/departments/epidemiology-biostatistics/educational-opportunities/quantitative-sciences-summer-undergraduate-research-experience-qsure) intern at Memorial Sloan Kettering Cancer Center in the Shah/McPherson Lab, where I developed statistical and computational methods for detecting homozygous deletions in low-coverage single-cell DNA sequencing data.  
 
-I also serve as an Undergraduate Lead Teaching Assistant for Differential Equations & Applications course in the Johns Hopkins Department of Mathematics.  
+I also serve as an Undergraduate Lead Teaching Assistant for Differential Equations & Applications course in Department of Mathematics at Hopkins.  
 
 I plan to pursue PhD training in biostatistics, statistical genomics, or biomedical data science, with a focus on developing rigorous statistical methodology for genomic and biomedical applications.  
 
