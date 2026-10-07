@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">IsoVita figure placeholder</title>
+  <desc id="desc">Replace with the IsoVita method schematic or representative discrete and continuous trajectories.</desc>
+  <rect width="1200" height="675" fill="#f4f6f8" />
+  <rect x="48" y="48" width="1104" height="579" rx="12" fill="none" stroke="#a8b4c2" stroke-width="2" stroke-dasharray="9 9" />
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="267" font-size="66" fill="#34495e">IsoVita</text>
+    <text x="600" y="345" font-size="30" fill="#536779">Research figure placeholder</text>
+    <text x="600" y="407" font-size="24" fill="#536779">Method schematic or discrete and continuous trajectories</text>
+  </g>
+</svg>
