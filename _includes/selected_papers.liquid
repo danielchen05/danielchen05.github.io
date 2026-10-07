@@ -1,3 +1,8 @@
 <div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+  <h3>Publications</h3>
+  {% bibliography --group_by none --query @*[selected=true,output_category=publication]* %}
+  <h3>Manuscripts in preparation</h3>
+  {% bibliography --group_by none --query @*[selected=true,output_category=manuscript]* %}
+  <h3>Conference poster</h3>
+  {% bibliography --group_by none --query @*[selected=true,output_category=poster]* %}
 </div>

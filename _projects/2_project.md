@@ -1,78 +1,21 @@
 ---
 layout: page
-title: SpotSweeper-py
-description: Python implementation of spatially aware quality-control metrics for spatial omics data
+title: "SpotSweeper-py: Spatial QC"
+description: "Open-source Python tools for detecting local quality-control outliers in spatial omics data."
 img: assets/img/spotsweeper_cover.jpg
-importance: 3
+importance: 4
 category: featured
-related_publications: true
+related_publications: false
+status: "Published \u00b7 F1000Research 2026"
 github: https://github.com/danielchen05/spotsweeper_py
 ---
 
-This project contributed to **SpotSweeper-py**, a Python implementation of spatially aware quality-control metrics for spatial omics data. The goal of the project was to bring SpotSweeper functionality from the R/Bioconductor ecosystem into the Python spatial omics ecosystem, making it easier to apply spatially informed quality control in modern Python workflows.
+Spatial omics artifacts can be missed by quality-control thresholds applied across an entire dataset. In the Hicks Lab, I developed SpotSweeper-py to bring spatially aware QC from the R ecosystem into Python workflows. Local neighborhoods provide context for identifying observations with unusual QC metrics relative to nearby spots or cells, supporting review of spatially structured artifacts.
 
-This work was conducted in the Hicks Lab at Johns Hopkins University, Department of Biostatistics, and contributed to a published F1000Research software workflow {% cite chen2026spotsweeperpy %}.
+The work combined Python implementation, integration with AnnData-based analysis, and benchmarking and validation against the original R functionality. Reproducible examples help users examine flagged observations in their tissue context rather than treating every local outlier as a confirmed technical failure. The open-source package is described in the 2026 F1000Research paper, _SpotSweeper-py: spatially-aware quality control metrics for spatial omics data in the Python ecosystem_.
 
----
+[Paper](https://f1000research.com/articles/15-33) · [Code](https://github.com/danielchen05/spotsweeper_py) · [Python package](https://pypi.org/project/spotsweeper/)
 
-## Overview
+{% include figure.liquid path="assets/img/spotsweeper_qc_map.png" alt="Spatial quality-control maps comparing SpotSweeper-py with global QC" class="img-fluid rounded z-depth-1" %}
 
-Spatial omics technologies measure molecular profiles while preserving tissue location. However, quality-control artifacts in these datasets are often spatially structured: low-quality regions, edge effects, tissue damage, or local technical artifacts may affect nearby spots or cells together.
-
-Traditional quality-control metrics often treat observations independently. SpotSweeper-py addresses this by incorporating spatial neighborhood information into quality-control summaries, helping users identify spatially localized technical artifacts in spatial omics datasets.
-
----
-
-## My Contributions
-
-- Ported SpotSweeper functionality from R/Bioconductor to Python.
-- Helped preserve spatially aware quality-control behavior in the Python implementation.
-- Worked with spatial omics data structures and Python analysis workflows.
-- Contributed to software development supporting a published F1000Research workflow.
-- Helped make spatially aware QC more accessible to users working in the Python ecosystem.
-
----
-
-## Methods
-
-The project focused on implementing and validating spatially aware quality-control metrics for spatial omics datasets.
-
-Key components included:
-
-1. **Spatial neighborhood construction**  
-   Spots or cells are represented using spatial coordinates, allowing nearby observations to be grouped into local neighborhoods.
-
-2. **Quality-control metric calculation**  
-   Standard QC metrics can be summarized locally to identify spatially structured artifacts.
-
-3. **Python ecosystem integration**  
-   The implementation supports Python-based spatial omics workflows and is designed to work naturally with common data structures used in computational biology (AnnData).
-
-4. **Validation and reproducibility**  
-   Outputs were compared against expected behavior to ensure that the Python version preserved the core functionality of the original SpotSweeper workflow.
-
----
-
-## Selected Figures
-
-<div class="row justify-content-sm-center">
-  <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/spotsweeper_qc_map.png" title="Spatial QC map" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-
-<div class="caption">
-  Example spatial quality-control outputs for SpotSweeper-py, and comparison with global QC methods.
-</div>
-
----
-
-## Tools
-
-`Python` · `spatial omics` · `quality control` · `software development` · `AnnData` · `SpatialData` · `open-source tools`
-
----
-
-## Status
-
-This project contributed to a published software workflow and supports spatially aware quality control in Python-based spatial omics analysis. Manuscript accepted and published on F1000.
+<div class="caption">Spatial QC summaries help identify local outliers that warrant review in their tissue context.</div>
