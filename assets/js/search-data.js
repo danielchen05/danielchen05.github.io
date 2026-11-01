@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "Published work, manuscripts in preparation, and conference posters.",
+          description: "Published work, preprints, manuscripts in preparation, and conference posters.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -66,7 +66,7 @@ ninja.data = [{
               window.location.href = "/projects/5_project/";
             },},{id: "projects-isovita-isoform-trajectories",
           title: 'IsoVita: Isoform Trajectories',
-          description: "An interpretable statistical framework for finding gradual and abrupt changes in transcript isoform usage across the human lifespan.",
+          description: "Learning interpretable compositional features and testing their association with continuous covariates, with applications to transcript isoform usage.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/isovita/";
             },},{id: "teachings-data-science-fundamentals",
