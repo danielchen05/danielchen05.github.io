@@ -31,7 +31,7 @@ My research interests lie in biostatistics, statistical genomics, and biomedical
 
 I am currently a research assistant in the [Hicks Lab](https://www.stephaniehicks.com/) at the Johns Hopkins Department of Biostatistics, where I work on statistical methodology, computational genomics, and reproducible workflows. My recent work spans interpretable isoform trajectory analysis with IsoVita, spatially aware quality control for spatial omics, and reproducible analysis workflows for Visium HD data.
 
-I also work with Jiabei Li and Dr. Alexis Battle on donor-aware evaluation of single-cell RNA-seq cell-type classification, studying when random cell-level evaluation can overestimate cross-donor generalization.
+I also work with Jiabei Li and Dr. Alexis Battle on donor-aware evaluation of single-cell RNA-seq cell-type classification, studying when random cell-level evaluation can overestimate cross-donor generalization. This work is available as a [bioRxiv preprint (2026)](https://www.biorxiv.org/content/10.64898/2026.10.26.761949v1).
 
 In Summer 2026, I was a [QSURE](https://www.mskcc.org/departments/epidemiology-biostatistics/educational-opportunities/quantitative-sciences-summer-undergraduate-research-experience-qsure) intern at Memorial Sloan Kettering Cancer Center in the Shah/McPherson Lab, where I developed statistical and computational methods for detecting homozygous deletions in low-coverage single-cell DNA sequencing data.
 

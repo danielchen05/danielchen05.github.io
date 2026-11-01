@@ -6,8 +6,9 @@ img: assets/img/spotsweeper_cover.jpg
 importance: 4
 category: featured
 related_publications: false
-status: "Published \u00b7 F1000Research 2026"
+status: "Published \u00b7 F1000Research (2026)"
 github: https://github.com/danielchen05/spotsweeper_py
+pypi: https://pypi.org/project/spotsweeper/
 ---
 
 Spatial omics artifacts can be missed by quality-control thresholds applied across an entire dataset. In the Hicks Lab, I developed SpotSweeper-py to bring spatially aware QC from the R ecosystem into Python workflows. Local neighborhoods provide context for identifying observations with unusual QC metrics relative to nearby spots or cells, supporting review of spatially structured artifacts.

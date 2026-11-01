@@ -6,7 +6,8 @@
   <div class="card h-100 hoverable">
     {% if project.img %}
       <a href="{{ project_url }}" tabindex="-1" aria-hidden="true">
-        {% include figure.liquid loading="lazy" path=project.img sizes="(min-width: 768px) 450px, 95vw" alt=project.title class="card-img-top" %}
+        {% assign project_img_alt = project.img_alt | default: project.title %}
+        {% include figure.liquid loading="lazy" path=project.img sizes="(min-width: 768px) 450px, 95vw" alt=project_img_alt class="card-img-top" %}
       </a>
     {% endif %}
     <div class="card-body d-flex flex-column">
@@ -17,10 +18,31 @@
         <p class="project-status">{{ project.status }}</p>
       {% endif %}
       <p class="card-text">{{ project.description }}</p>
-      <div class="mt-auto">
+      <div class="project-links mt-auto">
         <a href="{{ project_url }}" class="btn btn-sm z-depth-0" aria-label="Read about {{ project.title }}">Project</a>
+        {% if project.preprint %}
+          <a href="{{ project.preprint }}" class="btn btn-sm z-depth-0" aria-label="Preprint for {{ project.title }}">Preprint</a>
+        {% endif %}
+        {% if project.software %}
+          <a href="{{ project.software }}" class="btn btn-sm z-depth-0" aria-label="Software repository for {{ project.title }}">Software</a>
+        {% endif %}
+        {% if project.analysis_code %}
+          <a href="{{ project.analysis_code }}" class="btn btn-sm z-depth-0" aria-label="Manuscript analysis code for {{ project.title }}"
+            >Analysis Code</a
+          >
+        {% endif %}
+        {% if project.pypi %}
+          <a href="{{ project.pypi }}" class="btn btn-sm z-depth-0" aria-label="PyPI package for {{ project.title }}">PyPI</a>
+        {% endif %}
         {% if project.github %}
-          <a href="{{ project.github }}" class="btn btn-sm z-depth-0" aria-label="Code for {{ project.title }}">Code</a>
+          <a
+            href="{{ project.github }}"
+            class="btn btn-sm z-depth-0 project-github"
+            aria-label="GitHub repository for {{ project.title }}"
+            title="GitHub repository"
+          >
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+          </a>
         {% endif %}
       </div>
     </div>

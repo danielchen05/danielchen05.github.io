@@ -1,20 +1,28 @@
 ---
 layout: page
 title: "IsoVita: Isoform Trajectories"
-description: "An interpretable statistical framework for finding gradual and abrupt changes in transcript isoform usage across the human lifespan."
-img: assets/img/project_isovita_placeholder.svg
+description: "Learning interpretable compositional features and testing their association with continuous covariates, with applications to transcript isoform usage."
+img: assets/img/isovita_method_workflow.png
+img_alt: "IsoVita workflow: effective isoform filtering, interpretable balance construction, and discrete and continuous association tests."
 importance: 1
 category: featured
 related_publications: false
 status: "Manuscript in preparation"
+software: https://github.com/danielchen05/isovita
+analysis_code: https://github.com/danielchen05/IsoVita-paper
+pypi: https://pypi.org/project/isovita/
 ---
 
-Genes can change which transcript isoforms they use as people age, but comparisons between predefined age groups can miss the shape and timing of those changes. Developed with Stephanie Hicks, IsoVita summarizes each gene’s multi-isoform composition as an interpretable log-ratio balance between two groups of transcripts. Complementary statistical branches then test that feature for discrete changepoints and continuous nonlinear trajectories.
+Compositional measurements can change along continuous covariates in ways that are difficult to summarize. Developed with Stephanie Hicks, IsoVita learns an interpretable log-ratio balance between two groups of components, then tests its association with a continuous covariate using complementary changepoint and spline tests. In transcriptomics, this balance summarizes a gene’s multi-isoform composition while retaining the connection to the contributing transcripts.
 
-The method uses selection-aware permutations that re-learn the balance under shuffled age labels, accounting for feature construction during inference; multiple-testing control is applied separately within each branch. Simulation studies evaluate false discoveries, detection power, and sensitivity to sampling design, noise, and isoform complexity. Applications to human hippocampus and dorsolateral prefrontal cortex data examine transcript usage across the lifespan.
+The method uses selection-aware permutations that re-learn the balance under shuffled covariate labels, accounting for feature construction during inference; multiple-testing control is applied separately within each branch. Simulation studies evaluate false discoveries, detection power, and sensitivity to sampling design, noise, and isoform complexity. Applications to human hippocampus and dorsolateral prefrontal cortex data examine transcript usage across the lifespan. The maintained package also supports other continuous covariates and appropriately prefiltered compositional inputs.
 
-**Manuscript in preparation:** _IsoVita: Interpretable detection of temporal variation in isoform composition_ — Xingyi Chen and Stephanie Hicks.
+**Manuscript in preparation:** _Learning interpretable compositional features associated with continuous covariates_ — Xingyi Chen and Stephanie Hicks.
 
-[Manuscript details]({{ '/publications/' | relative_url }}#chenisovita)
+[Software](https://github.com/danielchen05/isovita) · [Analysis Code](https://github.com/danielchen05/IsoVita-paper) · [PyPI](https://pypi.org/project/isovita/) · [Manuscript details]({{ '/publications/' | relative_url }}#chenisovita)
 
-{% include figure.liquid path="assets/img/project_isovita_placeholder.svg" alt="IsoVita research figure placeholder" class="img-fluid rounded" %}
+The **Software** repository contains the maintained Python package. **Analysis Code** preserves the implementation, notebooks, and workflows used to reproduce the manuscript analyses independently of future package updates.
+
+{% include figure.liquid path="assets/img/isovita_method_workflow.png" alt="IsoVita workflow: effective isoform filtering, log-ratio trajectory summarization and interpretable balance selection, followed by discrete changepoint and continuous spline tests." class="img-fluid rounded" zoomable=true %}
+
+<div class="caption">IsoVita method overview: effective isoforms are summarized by an interpretable balance, which is evaluated with complementary discrete and continuous tests. <a href="{{ '/assets/img/isovita_method_workflow.png' | relative_url }}">View full-size figure</a>.</div>

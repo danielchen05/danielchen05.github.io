@@ -203,6 +203,9 @@
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
+      {% if entry.preprint %}
+        <a href="{{ entry.preprint }}" class="btn btn-sm z-depth-0" role="button">Preprint</a>
+      {% endif %}
       {% if entry.hal %}
         <a href="https://hal.science/{{ entry.hal }}" class="btn btn-sm z-depth-0" role="button">HAL</a>
       {% endif %}
@@ -240,6 +243,15 @@
       {% endif %}
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+      {% endif %}
+      {% if entry.software %}
+        <a href="{{ entry.software }}" class="btn btn-sm z-depth-0" role="button">Software</a>
+      {% endif %}
+      {% if entry.analysis_code %}
+        <a href="{{ entry.analysis_code }}" class="btn btn-sm z-depth-0" role="button">Analysis Code</a>
+      {% endif %}
+      {% if entry.pypi %}
+        <a href="{{ entry.pypi }}" class="btn btn-sm z-depth-0" role="button">PyPI</a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}

@@ -6,7 +6,7 @@ img: assets/img/qsure_cover.jpg
 importance: 3
 category: featured
 related_publications: false
-status: "QSURE 2026 \u00b7 Research follow-up"
+status: "QSURE (2026) \u00b7 Research follow-up"
 github: https://github.com/danielchen05/scDNA-homozygous-deletions
 ---
 
