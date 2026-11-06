@@ -7,7 +7,9 @@ importance: 4
 category: featured
 related_publications: false
 status: "Published \u00b7 F1000Research (2026)"
-github: https://github.com/danielchen05/spotsweeper_py
+software: https://github.com/danielchen05/spotsweeper_py
+analysis_code: https://github.com/danielchen05/SpotSweeper_py_paper
+paper: https://f1000research.com/articles/15-33
 pypi: https://pypi.org/project/spotsweeper/
 ---
 
@@ -15,7 +17,7 @@ Spatial omics artifacts can be missed by quality-control thresholds applied acro
 
 The work combined Python implementation, integration with AnnData-based analysis, and benchmarking and validation against the original R functionality. Reproducible examples help users examine flagged observations in their tissue context rather than treating every local outlier as a confirmed technical failure. The open-source package is described in the 2026 F1000Research paper, _SpotSweeper-py: spatially-aware quality control metrics for spatial omics data in the Python ecosystem_.
 
-[Paper](https://f1000research.com/articles/15-33) · [Code](https://github.com/danielchen05/spotsweeper_py) · [Python package](https://pypi.org/project/spotsweeper/)
+[Paper](https://f1000research.com/articles/15-33) · [Software](https://github.com/danielchen05/spotsweeper_py) · [Analysis Code](https://github.com/danielchen05/SpotSweeper_py_paper) · [PyPI](https://pypi.org/project/spotsweeper/)
 
 {% include figure.liquid path="assets/img/spotsweeper_qc_map.png" alt="Spatial quality-control maps comparing SpotSweeper-py with global QC" class="img-fluid rounded z-depth-1" %}
 

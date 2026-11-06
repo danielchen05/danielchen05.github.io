@@ -7,7 +7,8 @@ img_alt: "IsoVita workflow: effective isoform filtering, interpretable balance c
 importance: 1
 category: featured
 related_publications: false
-status: "Manuscript in preparation"
+status: "bioRxiv (2026)"
+preprint: https://www.biorxiv.org/content/10.64898/2026.11.04.764349
 software: https://github.com/danielchen05/isovita
 analysis_code: https://github.com/danielchen05/IsoVita-paper
 pypi: https://pypi.org/project/isovita/
@@ -17,9 +18,9 @@ Compositional measurements can change along continuous covariates in ways that a
 
 The method uses selection-aware permutations that re-learn the balance under shuffled covariate labels, accounting for feature construction during inference; multiple-testing control is applied separately within each branch. Simulation studies evaluate false discoveries, detection power, and sensitivity to sampling design, noise, and isoform complexity. Applications to human hippocampus and dorsolateral prefrontal cortex data examine transcript usage across the lifespan. The maintained package also supports other continuous covariates and appropriately prefiltered compositional inputs.
 
-**Manuscript in preparation:** _Learning interpretable compositional features associated with continuous covariates_ — Xingyi Chen and Stephanie Hicks.
+**bioRxiv (2026):** _Learning interpretable compositional features associated with continuous covariates_ — Xingyi Chen and Stephanie Hicks.
 
-[Software](https://github.com/danielchen05/isovita) · [Analysis Code](https://github.com/danielchen05/IsoVita-paper) · [PyPI](https://pypi.org/project/isovita/) · [Manuscript details]({{ '/publications/' | relative_url }}#chenisovita)
+[bioRxiv](https://www.biorxiv.org/content/10.64898/2026.11.04.764349) · [Software](https://github.com/danielchen05/isovita) · [Analysis Code](https://github.com/danielchen05/IsoVita-paper) · [PyPI](https://pypi.org/project/isovita/) · [Publication details]({{ '/publications/' | relative_url }}#chenisovita)
 
 The **Software** repository contains the maintained Python package. **Analysis Code** preserves the implementation, notebooks, and workflows used to reproduce the manuscript analyses independently of future package updates.
 

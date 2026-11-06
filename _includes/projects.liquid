@@ -19,12 +19,14 @@
       {% endif %}
       <p class="card-text">{{ project.description }}</p>
       <div class="project-links mt-auto">
-        <a href="{{ project_url }}" class="btn btn-sm z-depth-0" aria-label="Read about {{ project.title }}">Project</a>
         {% if project.preprint %}
-          <a href="{{ project.preprint }}" class="btn btn-sm z-depth-0" aria-label="Preprint for {{ project.title }}">Preprint</a>
+          <a href="{{ project.preprint }}" class="btn btn-sm z-depth-0" aria-label="bioRxiv manuscript for {{ project.title }}">bioRxiv</a>
         {% endif %}
-        {% if project.software %}
-          <a href="{{ project.software }}" class="btn btn-sm z-depth-0" aria-label="Software repository for {{ project.title }}">Software</a>
+        {% if project.paper %}
+          <a href="{{ project.paper }}" class="btn btn-sm z-depth-0" aria-label="Paper for {{ project.title }}">Paper</a>
+        {% endif %}
+        {% if project.poster %}
+          <a href="{{ project.poster | relative_url }}" class="btn btn-sm z-depth-0" aria-label="Poster PDF for {{ project.title }}">Poster</a>
         {% endif %}
         {% if project.analysis_code %}
           <a href="{{ project.analysis_code }}" class="btn btn-sm z-depth-0" aria-label="Manuscript analysis code for {{ project.title }}"
@@ -34,12 +36,13 @@
         {% if project.pypi %}
           <a href="{{ project.pypi }}" class="btn btn-sm z-depth-0" aria-label="PyPI package for {{ project.title }}">PyPI</a>
         {% endif %}
-        {% if project.github %}
+        {% assign repository_url = project.software | default: project.github %}
+        {% if repository_url %}
           <a
-            href="{{ project.github }}"
+            href="{{ repository_url }}"
             class="btn btn-sm z-depth-0 project-github"
-            aria-label="GitHub repository for {{ project.title }}"
-            title="GitHub repository"
+            aria-label="{% if project.software %}Software package{% else %}Code{% endif %} on GitHub for {{ project.title }}"
+            title="{% if project.software %}Software package on GitHub{% else %}Code on GitHub{% endif %}"
           >
             <i class="fa-brands fa-github" aria-hidden="true"></i>
           </a>

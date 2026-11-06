@@ -3,6 +3,7 @@ layout: page
 title: "Homozygous Deletion Detection"
 description: "Finding small, rare deletions in sparse single-cell DNA data by pooling evidence across cells."
 img: assets/img/qsure_cover.jpg
+img_alt: "Schematic of pooled single-cell sequencing signals and a deletion scan"
 importance: 3
 category: featured
 related_publications: false
@@ -16,4 +17,4 @@ Simulation studies compared the scanner with changepoint and segmentation approa
 
 [Code](https://github.com/danielchen05/scDNA-homozygous-deletions)
 
-{% include figure.liquid path="assets/img/qsure_cover.jpg" alt="Existing schematic of pooled single-cell sequencing signals and a deletion scan" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/qsure_cover.jpg" alt="Schematic of pooled single-cell sequencing signals and a deletion scan" class="img-fluid rounded z-depth-1 project-portrait-figure" avoid_scaling=true %}

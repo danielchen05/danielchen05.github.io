@@ -7,6 +7,7 @@ importance: 5
 category: featured
 related_publications: false
 status: "Conference poster \u00b7 Biology of Genomes (2026)"
+poster: /assets/pdf/Chen_BoG_2026_poster.pdf
 ---
 
 Transcript usage may reveal aging-related patterns that total gene expression misses. In the Hicks Lab, I developed isoform-level machine-learning workflows for bulk RNA-seq to study age-associated markers in human brain tissue. The analysis represents transcript usage through isoform fractions and combines feature selection with age-prediction models.
