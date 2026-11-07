@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected research and software projects in statistical genomics, spatial transcriptomics, and biomedical data science.
+description: Selected research projects in statistical genomics and biomedical data science.
 nav: true
 nav_order: 3
 display_categories: [featured]
