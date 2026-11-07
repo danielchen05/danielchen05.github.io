@@ -25,13 +25,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Xingyi (Daniel) Chen, a senior at Johns Hopkins University studying Applied Mathematics & Statistics, with minors in Computational Medicine and Mathematics.
+Hello! I am Daniel, a senior at Johns Hopkins University studying Applied Mathematics & Statistics, with minors in Computational Medicine and Mathematics.
 
 My interests lie in biostatistics, statistical genomics, and biomedical data science. I plan to pursue PhD training focused on developing and evaluating statistical and machine-learning methods for high-dimensional biomedical data, particularly single-cell genomics, transcriptomics, and spatial omics.
 
-As a research assistant in the [Hicks Lab](https://www.stephaniehicks.com/) at Johns Hopkins Biostatistics, I develop interpretable compositional methods with [IsoVita]({{ '/projects/isovita/' | relative_url }}), spatial quality-control software with [SpotSweeper-py]({{ '/projects/2_project/' | relative_url }}), and reproducible [Visium HD workflows]({{ '/projects/4_project/' | relative_url }}).
+As a research assistant in [Dr. Stephanie Hicks's Lab](https://www.stephaniehicks.com/), I develop interpretable compositional methods with [IsoVita]({{ '/projects/isovita/' | relative_url }}), quality-control software for spatial omics with [SpotSweeper-py]({{ '/projects/2_project/' | relative_url }}), and reproducible [Visium HD workflows]({{ '/projects/4_project/' | relative_url }}).
 
-With Jiabei Li and Dr. Alexis Battle, I study [cross-donor generalization]({{ '/projects/3_project/' | relative_url }}) in single-cell RNA-seq cell-type classification, examining when random cell-level evaluation overestimates performance on unseen donors.
+Under mentorship of Dr. Alexis Battle, I study [cross-donor generalization]({{ '/projects/3_project/' | relative_url }}) in single-cell RNA-seq cell-type classification, examining when random cell-level evaluation overestimates performance on unseen donors.
 
 During my Summer 2026 [QSURE](https://www.mskcc.org/departments/epidemiology-biostatistics/educational-opportunities/quantitative-sciences-summer-undergraduate-research-experience-qsure) internship in the Shah/McPherson Lab at Memorial Sloan Kettering Cancer Center, I developed statistical methods for [detecting homozygous deletions]({{ '/projects/5_project/' | relative_url }}) in low-coverage single-cell DNA sequencing data.
 
