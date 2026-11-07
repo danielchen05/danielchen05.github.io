@@ -15,7 +15,7 @@ Sparse single-cell DNA data make small homozygous deletions (both DNA copies los
 
 Simulation studies compared the scanner with changepoint and segmentation approaches across sequencing depths, deletion sizes, cell numbers, and carrier fractions. In controlled simulations, the scanner achieved perfect precision and recall when an event contained at least one fully deleted bin; strictly sub-bin events remained difficult because bin-level averaging diluted the signal. Applications to MSK-SPECTRUM, followed by additional cancer datasets, examined candidate deletions in real data. Technical zero-count regions required further filtering, so these candidates remain exploratory rather than validated biological calls.
 
-[Code](https://github.com/danielchen05/scDNA-homozygous-deletions)
+[Project Code](https://github.com/danielchen05/scDNA-homozygous-deletions)
 
 {% include figure.liquid path="assets/img/qsure_cover.jpg" alt="Schematic of pooled single-cell sequencing signals and a deletion scan" class="img-fluid rounded z-depth-1 project-portrait-figure" avoid_scaling=true %}
 
