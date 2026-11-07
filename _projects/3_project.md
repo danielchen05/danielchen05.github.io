@@ -5,7 +5,7 @@ description: "Testing how evaluation design changes estimates of cell-type class
 img: assets/img/scrna_benchmark_cover.jpg
 importance: 2
 category: featured
-related_publications: false
+related_publications: true
 status: "bioRxiv (2026)"
 github: https://github.com/danielchen05/scRNA-cross-donor-generalization
 preprint: https://www.biorxiv.org/content/10.64898/2026.10.26.761949
