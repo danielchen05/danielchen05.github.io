@@ -12,7 +12,7 @@ poster: /assets/pdf/Chen_BoG_2026_poster.pdf
 
 Transcript usage may reveal aging-related patterns that total gene expression misses. In the Hicks Lab, I developed isoform-level machine-learning workflows for bulk RNA-seq to study age-associated markers in human brain tissue. The analysis represents transcript usage through isoform fractions and combines feature selection with age-prediction models.
 
-Cross-region evaluation examines whether markers transfer between brain regions or reflect hippocampus-specific patterns. My work included feature construction, model evaluation, comparison of shared and region-specific markers, and visualization of the results. This project provides a biological setting for studying interpretable transcript-level variation across the lifespan and was presented as a conference poster at Biology of Genomes, Cold Spring Harbor Laboratory, in 2026.
+Age-prediction features showed limited transfer between hippocampus and dorsolateral prefrontal cortex (DLPFC), suggesting region-specific aging signals. My work included feature construction, model evaluation, comparison of shared and region-specific markers, and visualization of the results. This project provides a biological setting for studying interpretable transcript-level variation across the lifespan and was presented as a conference poster at Biology of Genomes, Cold Spring Harbor Laboratory, in 2026.
 
 [Poster PDF]({{ '/assets/pdf/Chen_BoG_2026_poster.pdf' | relative_url }}) · [Poster details]({{ '/publications/' | relative_url }}#chen2026bogposter)
 

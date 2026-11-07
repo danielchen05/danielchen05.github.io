@@ -21,4 +21,4 @@ The work combined Python implementation, integration with AnnData-based analysis
 
 {% include figure.liquid path="assets/img/spotsweeper_qc_map.png" alt="Spatial quality-control maps comparing SpotSweeper-py with global QC" class="img-fluid rounded z-depth-1" %}
 
-<div class="caption">Spatial QC summaries help identify local outliers that warrant review in their tissue context.</div>
+<div class="caption">Spatial QC summaries help identify local outliers that warrant review in their tissue context. <a href="{{ '/assets/img/spotsweeper_qc_map.png' | relative_url }}">View full-size figure</a>.</div>

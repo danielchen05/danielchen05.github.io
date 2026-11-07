@@ -21,4 +21,4 @@ I developed reproducible benchmarking workflows using logistic regression with h
 
 {% include figure.liquid path="assets/img/scrna_figure2_three_panel.png" alt="Existing PBMC benchmark comparing dataset construction, random cell-level and donor-held-out evaluation, and cross-site transfer" class="img-fluid rounded z-depth-1" %}
 
-<div class="caption">Illustrative PBMC analysis from the existing benchmark: evaluation design changes the apparent performance of cell-type classifiers.</div>
+<div class="caption">Illustrative PBMC analysis from the existing benchmark: evaluation design changes the apparent performance of cell-type classifiers. <a href="{{ '/assets/img/scrna_figure2_three_panel.png' | relative_url }}">View full-size figure</a>.</div>

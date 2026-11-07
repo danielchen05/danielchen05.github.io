@@ -27,17 +27,15 @@ latest_posts:
 
 I am Xingyi (Daniel) Chen, a senior at Johns Hopkins University studying Applied Mathematics & Statistics, with minors in Computational Medicine and Mathematics.
 
-My research interests lie in biostatistics, statistical genomics, and biomedical data science. I am especially interested in developing and evaluating statistical and machine-learning methods for high-dimensional genomic and biomedical data, with applications in single-cell genomics, transcriptomics, and spatial omics.
+My interests lie in biostatistics, statistical genomics, and biomedical data science. I plan to pursue PhD training focused on developing and evaluating statistical and machine-learning methods for high-dimensional biomedical data, particularly single-cell genomics, transcriptomics, and spatial omics.
 
-I am currently a research assistant in the [Hicks Lab](https://www.stephaniehicks.com/) at the Johns Hopkins Department of Biostatistics, where I work on statistical methodology, computational genomics, and reproducible workflows. My recent work spans interpretable isoform trajectory analysis with IsoVita, spatially aware quality control for spatial omics, and reproducible analysis workflows for Visium HD data. IsoVita is now available on [bioRxiv (2026)](https://www.biorxiv.org/content/10.64898/2026.11.04.764349).
+As a research assistant in the [Hicks Lab](https://www.stephaniehicks.com/) at Johns Hopkins Biostatistics, I develop interpretable compositional methods with [IsoVita]({{ '/projects/isovita/' | relative_url }}), spatial quality-control software with [SpotSweeper-py]({{ '/projects/2_project/' | relative_url }}), and reproducible [Visium HD workflows]({{ '/projects/4_project/' | relative_url }}).
 
-I also work with Jiabei Li and Dr. Alexis Battle on donor-aware evaluation of single-cell RNA-seq cell-type classification, studying when random cell-level evaluation can overestimate cross-donor generalization. This work is available on [bioRxiv (2026)](https://www.biorxiv.org/content/10.64898/2026.10.26.761949).
+With Jiabei Li and Dr. Alexis Battle, I study [cross-donor generalization]({{ '/projects/3_project/' | relative_url }}) in single-cell RNA-seq cell-type classification, examining when random cell-level evaluation overestimates performance on unseen donors.
 
-In Summer 2026, I was a [QSURE](https://www.mskcc.org/departments/epidemiology-biostatistics/educational-opportunities/quantitative-sciences-summer-undergraduate-research-experience-qsure) intern at Memorial Sloan Kettering Cancer Center in the Shah/McPherson Lab, where I developed statistical and computational methods for detecting homozygous deletions in low-coverage single-cell DNA sequencing data.
+During my Summer 2026 [QSURE](https://www.mskcc.org/departments/epidemiology-biostatistics/educational-opportunities/quantitative-sciences-summer-undergraduate-research-experience-qsure) internship in the Shah/McPherson Lab at Memorial Sloan Kettering Cancer Center, I developed statistical methods for [detecting homozygous deletions]({{ '/projects/5_project/' | relative_url }}) in low-coverage single-cell DNA sequencing data.
 
 I have also served as an Undergraduate Lead Teaching Assistant for Differential Equations & Applications in the Department of Mathematics at Hopkins.
-
-I plan to pursue PhD training in biostatistics, statistical genomics, or biomedical data science, with a focus on developing rigorous statistical methodology for genomic and biomedical applications.
 
 Outside of research, I enjoy traveling, exploring new cafes, restaurants, and cities, and spending time with friends.
 

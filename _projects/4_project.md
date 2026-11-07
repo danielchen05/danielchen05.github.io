@@ -14,8 +14,8 @@ High-resolution spatial transcriptomics requires careful handling of tissue imag
 
 The implementation organizes data loading, resolution-specific extraction, spatial QC summaries, and figure generation into reusable steps. Image-aligned plots make it easier to compare expression and QC patterns with tissue structure, while the utilities reduce repeated code across analyses. Completed in September 2025, this research infrastructure also supported figure generation for an NIH R01 proposal.
 
-[Python utilities](https://github.com/danielchen05/visiumhd_utils) · [Analysis workflows](https://github.com/danielchen05/hicks-lab-personal)
+[Python utilities](https://github.com/danielchen05/visiumhd_utils) · [Analysis workflows](https://github.com/danielchen05/hicks-lab-personal/blob/main/VisiumHDPlotting.ipynb)
 
 {% include figure.liquid path="assets/img/visiumhd_16um_histology_overlay.png" alt="Visium HD gene expression overlaid on histology at 16 micrometer resolution" class="img-fluid rounded z-depth-1" %}
 
-<div class="caption">Image-aligned expression visualization at 16 µm resolution.</div>
+<div class="caption">Expression of <i>AA986860</i> in the 10x Genomics Visium HD mouse small intestine dataset, overlaid on histology at 16 µm resolution. Colors show transcript counts per bin (0–4); bins with zero counts are transparent.</div>
