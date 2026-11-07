@@ -44,8 +44,8 @@ ninja.data = [{
           description: "Using transcript isoform patterns to study brain aging and compare markers across brain regions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-spotsweeper-py-spatial-qc",
-          title: 'SpotSweeper-py: Spatial QC',
+            },},{id: "projects-spotsweeper-py",
+          title: 'SpotSweeper-py',
           description: "Open-source Python tools for detecting local quality-control outliers in spatial omics data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
