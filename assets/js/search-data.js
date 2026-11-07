@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Selected research and software projects in statistical genomics, spatial transcriptomics, and biomedical data science.",
+          description: "Selected research projects in statistical genomics and biomedical data science.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
