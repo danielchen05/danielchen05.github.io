@@ -56,7 +56,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "projects-visium-hd-analysis-workflows",
           title: 'Visium HD Analysis Workflows',
-          description: "Reusable Python workflows for quality control, artifact correction, and tissue-aligned visualization of high-resolution spatial transcriptomics.",
+          description: "Reusable Python workflows for quality control, artifact correction, and tissue-aligned visualization of high-resolution spatial transcriptomics data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-homozygous-deletion-detection",
