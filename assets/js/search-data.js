@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "",
+          description: "Notes and practice problems developed for courses and discussion sections.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
