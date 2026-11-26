@@ -35,7 +35,7 @@ Under mentorship of Dr. Alexis Battle, I study [cross-donor generalization]({{ '
 
 During my Summer 2026 [QSURE](https://www.mskcc.org/departments/epidemiology-biostatistics/educational-opportunities/quantitative-sciences-summer-undergraduate-research-experience-qsure) internship in the Shah/McPherson Lab at Memorial Sloan Kettering Cancer Center, I developed statistical methods for [detecting homozygous deletions]({{ '/projects/5_project/' | relative_url }}) in low-coverage single-cell DNA sequencing data.
 
-I have also served as an Undergraduate Lead Teaching Assistant for Differential Equations & Applications in the Department of Mathematics at Hopkins.
+I have also served as an Undergraduate Lead Teaching Assistant for Differential Equations & Applications in the Department of Mathematics at Hopkins, where I developed [section notes and practice problems]({{ '/diff-eq/' | relative_url }}) for my students.
 
 Outside of research, I enjoy traveling, exploring new cafes, restaurants, and cities, and spending time with friends.
 
