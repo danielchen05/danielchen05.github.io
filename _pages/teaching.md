@@ -2,6 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
+description: Notes and practice problems developed for courses and discussion sections.
 nav: true
 nav_order: 6
 ---
